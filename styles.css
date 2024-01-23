@@ -1,0 +1,43 @@
+body {
+    background-color: black; /*dark background */
+    color: blueviolet; /*This is the text colour */
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    text-align: center;
+    padding: 50px;
+}
+
+h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.quote-container {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.quote {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.fireworks {
+    width: 100%;
+    max-width: 400px;
+    margin-top: 20px;
+    animation: animateFireworks 6s infinite;
+}
+
+@keyframes animateFireworks {
+    0%, 100% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-20px);
+    }
+  }
